@@ -1,6 +1,8 @@
 # RealmServer
 Full example realm object server with swift 4
 
+* [Video demo](https://streamable.com/axlbt)
+
 ### Installing
 
 A step by step series of examples that tell you have to get a development env running
