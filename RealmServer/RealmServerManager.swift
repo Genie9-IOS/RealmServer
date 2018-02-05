@@ -15,7 +15,7 @@ class RealmServerManager {
     private let password = ""
     
     private let authServerURL = URL(string: "http://127.0.0.1:9080")!
-    private let syncServerURL = URL(string: "realm://127.0.0.1:9080/~/MYDB")!
+    private let syncServerURL = URL(string: "realm://127.0.0.1:9080/~/MSDB")!
     
     private var user: SyncUser?
 

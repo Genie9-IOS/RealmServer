@@ -80,8 +80,11 @@ class ViewController: UITableViewController {
             guard let text = alertTextField.text , !text.isEmpty else { return }
             if let realm = self.realmManager.realm(){
                 try! realm.write {
-                    self.userList.append(UserModel(value: ["text": text]))
-                    
+                   let user =  UserModel()
+                    user.text = text
+                    user.id = NSUUID().uuidString
+                    realm.add(user)
+                    self.userList.append(user)
                     self.tableView.reloadData()
                 }
             }

@@ -10,12 +10,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RealmServer/ViewController.swift"
-            timestampString = "539511070.572929"
+            timestampString = "539513756.050999"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "51"
             endingLineNumber = "51"
             landmarkName = "realmSetUp()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RealmServer/ViewController.swift"
+            timestampString = "539513756.0513279"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "add()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
